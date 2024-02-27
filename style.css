@@ -1,0 +1,44 @@
+.insta-container {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.insta-post img {
+  width: 400px;
+}
+
+.insta-user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.insta-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.insta-bold {
+  font-weight: bold;
+}
+
+.user-data {
+  margin-left: 10px;
+}
+
+.user-data p {
+  margin: 0;
+}
+.insta-post-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-like {
+  color: red;
+}
+.icon-save {
+  color: darkgray;
+}
